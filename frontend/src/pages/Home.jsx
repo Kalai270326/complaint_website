@@ -25,7 +25,7 @@ function Home() {
                 </section>
                 <section className='home-log-btn'>
                   <button onClick={handlesign} className='home-sign'>Sign In</button>
-                    <button className='home-regist'>Get Started</button>
+                   <Link to='/register'> <button className='home-regist'>Get Started</button></Link>
                 </section>
             </nav>
             <div className='home-body1'>
