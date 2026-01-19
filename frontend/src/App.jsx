@@ -3,6 +3,7 @@ import './App.css'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Home from './pages/Home.jsx'
+import Complaintfile from './pages/Complaintfile.jsx'
 import { BrowserRouter,Routes, Route} from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
 import Layout from './component/Layout.jsx'
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+          <Route path='complaintfile' element={<Complaintfile/>}/>
         </Routes>
        
       </BrowserRouter>

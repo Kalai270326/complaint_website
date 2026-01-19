@@ -36,8 +36,8 @@ function Home() {
                     <p>Empowering citizens to report issues, track resolutions, and <br /> build a more responsive municipality using AI-driven routing <br /> and real-time GPS tracking.</p>
                     </div>
                     <div className='home-button'>
-                    <button className='home-btn1'>Register Now</button>
-                    <button className='home-btn2'>Officer Login</button>
+                   <Link to='/register'> <button className='home-btn1'>Register Now</button></Link>
+                    <Link to='/login'><button className='home-btn2'>Officer Login</button></Link>
                 
                 </div>
                 
