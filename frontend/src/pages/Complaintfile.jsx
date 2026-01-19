@@ -1,7 +1,10 @@
 import React from 'react'
 import './Complaintfile.css';
+import { IoLocationOutline } from "react-icons/io5";
+import {useRef} from 'react';
 
 function Complaintfile() {
+    const fileInputRef = useRef(null);
   return (
     <div className='main-complaint'>
         <div className='complaint-title'>
@@ -13,7 +16,7 @@ function Complaintfile() {
             <form action="">
                 <div className='issue_description'>
                 <label htmlFor="issue_description">issue Description</label>
-                <textarea name="" id="issue_description" value=""/>
+                <textarea name="" id="issue_description" value="" placeholder='Describe the ussue in detail (e.g., Water leak on 5th Ave near the park)...'/>
                 </div>
                 <div className='comp_category' >
                     <label htmlFor="comp_category">Category</label>
@@ -28,10 +31,13 @@ function Complaintfile() {
                 </div>
                 <div className='comp_loc'>
                     <label htmlFor="">Locaion</label>
-                    <button ></button>
-
-
+                    <button ><IoLocationOutline /> <span>Share My Location</span></button>
                 </div>
+                <div className='comp-photo'>
+                    <label htmlFor="">Attach Photo (Optional)</label>
+                   <input type="file"  ref={fileInputRef} accept="image/*"  />
+              </div>
+        
             </form>
         </div>
     </div>
