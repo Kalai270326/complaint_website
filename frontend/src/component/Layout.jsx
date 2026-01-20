@@ -1,7 +1,8 @@
 import React from 'react'
 import Login from '../pages/Login.jsx'
 import Register from '../pages/Register.jsx'
-function Layout() {
+import Footer from '../pages/Footer.jsx'
+function Layout({children}) {
   return (
   <div>
    

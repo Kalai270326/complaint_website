@@ -18,7 +18,7 @@ function Home() {
                 <section className='home-title'>
                     <ul>
                         <li className='shield-icon'><LuShield /></li>
-                        <li><h2>MuniSolve</h2></li>
+                        <li><h2>Online Civic Complaint</h2></li>
                     </ul>
 
                     
@@ -40,10 +40,30 @@ function Home() {
                     <Link to='/login'><button className='home-btn2'>Officer Login</button></Link>
                 
                 </div>
-                
+                 
                 
             </div>
+            <footer>
+                  <div className='footer-container'>
+                     <div className='content-1'>
+                        <div className='home-title2'>
+                      <ul>
+                          <li className='shield-icon'><LuShield /></li>
+                         <li><h2>Online Civic Complaint</h2></li>
+                      </ul>
+                      <p>Transforming municipal governance <br />
+                         through digital excellence. Empowering <br/>
+                         citizens to build a smarter, more<br/>
+                         responsive city together.
+                       </p>
+                     </div>
+                 </div>
+
+                </div>
+                     </footer>
+                
         </div>
+       
     </div>
   )
 }
