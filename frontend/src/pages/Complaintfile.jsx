@@ -2,6 +2,7 @@ import React from 'react'
 import './Complaintfile.css';
 import { IoLocationOutline } from "react-icons/io5";
 import {useRef} from 'react';
+import Footer from '../pages/Footer.jsx'
 
 function Complaintfile() {
     const fileInputRef = useRef(null);
@@ -40,6 +41,8 @@ function Complaintfile() {
         
             </form>
         </div>
+   
+<Footer/>
     </div>
   )
 }

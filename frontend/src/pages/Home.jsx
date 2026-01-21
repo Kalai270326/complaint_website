@@ -3,6 +3,7 @@ import './Home.css'
 import { LuShield } from "react-icons/lu";
 import {Link} from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../pages/Footer.jsx'
 
 function Home() {
     const navigate = useNavigate();
@@ -43,7 +44,7 @@ function Home() {
                  
                 
             </div>
-            <footer>
+            {/* <footer>
                   <div className='footer-container'>
                      <div className='content-1'>
                         <div className='home-title2'>
@@ -60,11 +61,17 @@ function Home() {
                  </div>
 
                 </div>
-                     </footer>
-                
+                     </footer> */}
+                      <div className='home-footer'>
+               <Footer/>
+        </div>
+             
         </div>
        
+       
     </div>
+    
+
   )
 }
 
