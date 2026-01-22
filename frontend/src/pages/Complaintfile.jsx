@@ -7,6 +7,7 @@ import Footer from '../pages/Footer.jsx'
 function Complaintfile() {
     const fileInputRef = useRef(null);
   return (
+    <>
     <div className='main-complaint'>
         <div className='complaint-title'>
             <h2>File a New Complaint</h2>
@@ -16,8 +17,8 @@ function Complaintfile() {
         <div className='complaint-form'>
             <form action="">
                 <div className='issue_description'>
-                <label htmlFor="issue_description">issue Description</label>
-                <textarea name="" id="issue_description" value="" placeholder='Describe the ussue in detail (e.g., Water leak on 5th Ave near the park)...'/>
+                <label htmlFor="issue_description">Issue Description</label>
+                <textarea name="" id="issue_description"  placeholder='Describe the ussue in detail (e.g., Water leak on 5th Ave near the park)...'/>
                 </div>
                 <div className='comp_category' >
                     <label htmlFor="comp_category">Category</label>
@@ -42,8 +43,10 @@ function Complaintfile() {
             </form>
         </div>
    
-<Footer/>
+
     </div>
+    <Footer/>
+    </>
   )
 }
 

@@ -41,7 +41,7 @@ function Footer() {
                             <li>City Planning</li>
                           </ul>
                         </div>
-                         <div className='content-3'>
+            <div className='content-3'>
             <h3>CITIZEN SUPPORT</h3>
             <ul className="">
               <li className="">
@@ -60,10 +60,24 @@ function Footer() {
               </li>
             </ul>
           </div>
+          <div className='content-4'>
+            <h3>PLATFORM</h3>
+            <p>Version 2.4.0 (Stable)<br/>
+               Last System Sync: Just Now <br />
+               &copy; 2025 Municipal Digital Services Division. </p> <br />
+               <button>Terms of Service</button>               
+           
+          </div>
+         
                      </div>
+                      <div className='hor-line'>
+                        
+            <p>Designed for Citizens. Developed for Progress.</p>
+          </div>
     
-                    </div>
+          </div>
        </footer>
+       
        
     </div>
   )

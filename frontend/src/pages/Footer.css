@@ -6,8 +6,11 @@ footer{
 .content-1{
     display: flex;
     flex-direction:row;
-    gap: 20px;
-    padding: 30px;
+    gap: 100px;
+    padding-top: 30px;
+    padding:  30px 250px 0  ;
+    padding-right: 250px;
+    padding-bottom: 20px;
 
 }
 .home-title2{
@@ -21,6 +24,7 @@ footer{
         font-size: 13px;
         
         line-height: 1.5;
+        color:  rgb(115, 106, 170);
     }
    
 }
@@ -53,10 +57,10 @@ footer{
     gap: 20px;
     color:white;
     font-family: sans-serif;
-    font-size: 9px;
+    font-size: 8px;
     font-weight: bold;
     h3{
-        letter-spacing: 1px;
+       letter-spacing: 0.5px;
         font-weight: 800;
     }
     ul{
@@ -102,6 +106,7 @@ footer{
         font-size: 10px;
         text-transform: uppercase;
         font-weight: 700;
+        color:  rgb(115, 106, 170);
      }
      .para-2{
         font-family: sans-serif;
@@ -119,4 +124,46 @@ footer{
 .email-icon{
     color: blue;
     font-size: 20px;
+}
+.content-4{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    h3{
+        color: white;
+        font-family: sans-serif;
+        font-size: 11px;
+        font-weight: 1000;
+        letter-spacing: 1px;
+    }
+    p{
+       font-size: 10px;
+       font-family: sans-serif;
+       color: rgb(115, 106, 170);
+    }
+    button{
+        width: 100px;
+        height: 27px;
+        border-radius: 7px;
+        font-size: 11px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(115, 106, 170); 
+    }
+}
+.hor-line{
+   border-top: 2px solid rgb(115, 106, 170);
+   margin-top: 12px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   
+   p{
+    text-align: center;
+   color:rgb(115, 106, 170) ;
+   font-size: 9px;
+   font-family: sans-serif;
+   font-weight: 900;
+   }
+   
 }
